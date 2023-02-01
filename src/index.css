@@ -1,0 +1,47 @@
+@media (max-width: 500px) { 
+    .footer {
+        justify-content: space-between;
+    }
+    .source__item {
+        margin: 0.25em;
+        padding: 0.5em 1em;
+        border: 1px solid #30c5ff;
+    }
+}
+
+h1 {
+    text-align: center;
+ }
+ 
+.sources  {
+    flex-wrap: wrap;
+    height: 50vh;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.logo {
+    width: 100px;
+    height: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info p {
+    color:#333
+}
+
+.info a {
+    color: #444;
+}
+
+.info a:hover {
+    color: #555;
+}
+
